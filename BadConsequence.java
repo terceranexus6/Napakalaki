@@ -32,4 +32,24 @@ public class BadConsequence {
         this.levels=0;
     }
     
+        public String GetText(){
+        return text;
+    }
+    
+    public int GetLevels(){
+        return levels;
+    }
+    
+    public int GetnVisibleTreasures(){
+        return nVisibleTreasures;
+    }
+    
+    public int GetnHiddenTreasures(){
+        return nHiddenTreasures;
+    }
+    
+    public boolean GetDeath(){
+        return death;
+    }
+    
 }
