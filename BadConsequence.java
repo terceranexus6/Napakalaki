@@ -51,5 +51,17 @@ public class BadConsequence {
     public boolean GetDeath(){
         return death;
     }
+        private ArrayList<TreasureKind>specificHiddenTreasures = new ArrayList();
+    private ArrayList<TreasureKind>specificVisibleTreasures = new ArrayList();
+    
+    public BadConsequence(String te, int lev, ArrayList<TreasureKind> tVisible, ArrayList<TreasureKind> tHidden){
+       this.text=text; 
+       this.levels=lev;
+       this.specificHiddenTreasures=tHidden;
+       this.specificVisibleTreasures=tVisible;
+       this.death=false;
+       this.nVisibleTreasures=0;
+       this.nHiddenTreasures=0;
+    }
     
 }
