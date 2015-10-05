@@ -26,6 +26,9 @@ public class Monster {
         this.combatLevel=cl;
     }
     
+    public String toString(){
+        return "Name = "+name+"combatlevel = "+Integer.toString(combatLevel);
+    }
 
     
 }
